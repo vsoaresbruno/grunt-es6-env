@@ -1,0 +1,30 @@
+{
+  "name": "front-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "grunt-babel": "^8.0.0",
+    "grunt": "^1.0.3",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify-es": "^3.3.0",
+    "grunt-envpreprocess": "^0.1.4",
+    "http-server": "^0.11.1"
+  },
+  "scripts": {
+    "dev": "./node_modules/.bin/grunt build:dev",
+    "prod": "./node_modules/.bin/grunt build:prod",
+    "start": "./node_modules/.bin/http-server ./build -a localhost -p 3002 -c-5 -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos/front-login"
+  },
+  "author": "",
+  "license": "ISC"
+}
