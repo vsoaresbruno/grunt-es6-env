@@ -18,7 +18,7 @@
   "scripts": {
     "dev": "./node_modules/.bin/grunt build:dev",
     "prod": "./node_modules/.bin/grunt build:prod",
-    "start": "./node_modules/.bin/http-server ./build -a localhost -p 3002 -c-5 -o",
+    "start": "./node_modules/.bin/http-server ./build -a localhost -p 3008 -c-5 -o",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

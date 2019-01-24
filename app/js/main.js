@@ -11,3 +11,7 @@ const dateToBR = function (data) {
 
 const domain = `Domain: ${DOMAIN_URL}`;
 const endpoint = `Endpoint: ${API_URL}`;
+
+console.log(domain)
+console.log(endpoint)
+console.log(dateToBR('2019-10-01'))
