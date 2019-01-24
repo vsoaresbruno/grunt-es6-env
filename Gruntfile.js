@@ -121,12 +121,6 @@ module.exports = function (grunt) {
 
     if (target === 'dev') {
       env = 'envpreprocess:dev';
-    } else if (target === 'hmg') {
-      env = 'envpreprocess:hmg';
-    } else if (target === 'hmg2') {
-      env = 'envpreprocess:hmg2';
-    } else if (target === 'preprd') {
-      env = 'envpreprocess:preprd';
     } else if (target === 'prod') {
       env = 'envpreprocess:prod';
     }
